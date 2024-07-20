@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #ecf0f1;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #ecf0f1;
+    padding: 10px 0;
+}
+
+main {
+    padding: 20px;
+    background: #6796c6;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+}
+
+#gameCanvas {
+    border: 2px solid #ecf0f1;
+    background: #1abc9c; /* Color de fondo del juego */
+    display: block;
+    margin: 0 auto;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #c7c5c8;
+}
+
+button:focus {
+    outline: none;
+}
+
+footer {
+    background-color: #333;
+    color: #ecf0f1;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

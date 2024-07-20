@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+
+main {
+    padding: 20px;
+}
+
+/* Contenedor del juego */
+.game-container {
+    text-align: center;
+}
+
+/* Estilo del tablero de juego */
+#gameBoard {
+    border: 1px solid #000;
+    background-color: white;
+    /* Ajustar la relación de aspecto para el tablero */
+    aspect-ratio: 1 / 1;
+    max-width: 100%;
+    max-height: 90vh; /* Asegura que el tablero no ocupe más del 90% de la altura de la ventana */
+}
+
+/* Mensaje en la parte inferior del tablero */
+#message {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 600px) {
+    #gameBoard {
+        width: 100%;
+        height: auto;
+    }
+}
+
+#back-button {
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
